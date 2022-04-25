@@ -11,14 +11,25 @@
 
 # 설계
 ## 목표
-- typescript를 활용한 블로그 제작
-- react-markdown 사용
-- 라이트모드, 다크모드 만들기
+- react, typescript 사용한 블로그 제작
+- firebase api사용해 콘텐츠 생성, 배포
+- tailwind로 데이/나이트 테마 구현
 
 ## 레이아웃
-- 헤더
-- 카드 형식의 글 목록 : 커버이미지, 글 제목, 내용
+###  메인 페이지
+- 헤더 : 로고, 메뉴(post, about me), 테마변경 아이콘
+- 글 목록 : 커버이미지, 글 제목, 내용, 카테고리
 <img src="./src/images/layout.jpg" height="200">
+
+### 메뉴
+#### post
+- 카테고리 분류
+- 글 목록
+- toc
+
+### about me
+- 소개글
+- 프로젝트 목록
 
 ---
 # 기능
